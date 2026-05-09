@@ -1,0 +1,36 @@
+# Godot 4+ specific ignores
+.godot/
+# 下面两个文件在部分包含插件的项目中建议保留，如果不确定可以保持注释
+# !/.godot/extension_list.cfg
+# !/.godot/global_script_class_cache.cfg
+
+# Godot-specific ignores
+.import/
+export.cfg
+export_presets.cfg
+
+# Android specific ignores
+/android/build/
+/android/plugins/
+/android/build_*/
+
+# Exported games / builds
+/export/
+/builds/
+/bin/
+
+# Imported translations (如果不想追踪翻译文件)
+# *.translation
+
+# C# / Mono-specific ignores (如果你在 Godot 中使用 C#)
+.mono/
+data_*/
+mono_crash.*.json
+/.vs/
+/.idea/
+*.sln
+*.csproj.user
+
+# OS generated files
+.DS_Store
+Thumbs.db
